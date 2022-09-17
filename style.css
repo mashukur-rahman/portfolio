@@ -1,0 +1,193 @@
+body{
+    margin: 0%;
+}
+.topContainer{
+    background-color: #FFF8BC;
+    text-align: center;
+    display: inline-block;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    margin-bottom: -4px;
+    overflow: auto;
+}
+
+#top-cloud{
+    width: 15%;
+    position: absolute;
+    bottom: 80%;
+    /* left: 65%; */
+    animation-name: cloud;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+}
+@keyframes cloud {
+    0%{
+        bottom: 80%;
+        left: 50%;
+    }
+    100%{
+        bottom: 80%;
+        left: 65%;
+    }
+}
+.intro{
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    left: 25%;
+    display: inline-block;
+}
+#title{
+    font-family: 'Silkscreen', cursive;
+    color: #54BAB9;
+    font-size: 262.5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#para{
+    font-family: 'Roboto', sans-serif;
+    color: #9ED2C6;
+    font-size: 130%;
+    text-align: center;
+    display: inline-block;
+}
+#batman{
+    text-decoration: line-through;
+}
+#bottom-cloud{
+    width: 15%;
+    position: absolute;
+    bottom: 35%;
+    /* right: 70%; */
+    animation-name: cloud2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes cloud2 {
+    0%{
+        bottom: 35%;
+        right: 50%;
+    }
+    100%{
+        bottom: 35%;
+        right: 70%;
+    }
+    
+}
+#mountain{
+    width: 60%;
+    position: absolute;
+    bottom: 0%;
+    left:20%;
+}
+.middle-container{
+    background-color: #54BAB9;
+    color: #FFF8BC;
+    line-height: 2;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.profile{
+    margin-left: 25%;
+    width: 50%;
+    display: inline-block;
+    padding-top: 100px;
+    text-align: center;
+}
+.profile img{
+    width: 25%;
+}
+
+.skills h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+.skill-row img{
+    width:24%;
+}
+
+.coding{
+    display: flex;
+    justify-content: space-between;
+}
+#webdev{
+    margin-top: 50px;
+}
+.ux-design{
+    display: flex;
+    justify-content: center;
+}
+#ux-heading{
+    margin-top: 50px;
+}
+.ux-design img{
+    padding: 5px;
+}
+.contact-me{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    display: inline-block;
+    margin-left: 25%;
+}
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #54BAB9;
+    font-size: 24px;
+    background: #FFF8BC;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    color: #FFF8BC;
+    background-color: #54BAB9;
+    border: 2px solid #FFF8BC;
+  }
+.bottom-container{
+    text-align: center;
+    background-color: #FFF8BC;
+    color: #54BAB9;
+    display: inline-block;
+    width: 100%;
+    padding-top: 50px;
+
+}
+hr{
+    border-style: dotted none none;
+    width: 10%;
+    border-width: 5px;
+    margin-top: 50px;
+}
+.fa-linkedin{
+   font-size: 200%;
+   color: #0072b1;
+   padding-right: 20px;
+}
+.fa-youtube{
+    font-size: 200%;
+    color:  #c4302b;
+    padding-right: 20px;
+ }
+ .fa-square-behance{
+    font-size: 200%;
+    color:  #053eff;
+ }
